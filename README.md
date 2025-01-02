@@ -23,8 +23,7 @@ Welcome to the **Crypto Price Tracker** project! This is a portfolio project cre
 - **Git:** For version control.
 - **GitHub:** For hosting the project repository.
 
-## Project Structure
-
+- ## Project Structure
 
 project_root/
 ├── app.py
@@ -35,3 +34,29 @@ project_root/
 │       └── xan1.png
 └── templates/
     └── index.html
+
+- 
+- **app.py:** The main Flask application file that serves the web API and renders the front-end.
+- **fetch_prices.py:** A script to fetch real-time cryptocurrency prices.
+- **static/styles.css:** Contains the CSS styling for the front-end.
+- **static/thumbnails/xan1.png:** The header image used in the project.
+- **templates/index.html:** The HTML template for rendering the web interface.
+
+- ## Getting Started
+
+### Prerequisites
+
+- Python 3.x installed on your machine.
+- Flask installed (`pip install flask`).
+- Git installed for version control.
+
+### Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/crypto-price-tracker.git
+   cd crypto-price-tracker
+
+
+
+
